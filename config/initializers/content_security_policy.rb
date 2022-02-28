@@ -5,7 +5,6 @@
 # https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy
 
 Rails.application.configure do
-  config.secret_key_base = ENV["SECRET_KEY_BASE"]
 #   config.content_security_policy do |policy|
 #     policy.default_src :self, :https
 #     policy.font_src    :self, :https, :data

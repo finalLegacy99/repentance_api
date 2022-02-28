@@ -1,6 +1,6 @@
 class Api::TextsController < ApplicationController
 
-  before_action :authenticate_user, only: [:update]
+  # before_action :authenticate_user, only: [:update]
 
   def index
     @texts = Text.all.order('id ASC')
