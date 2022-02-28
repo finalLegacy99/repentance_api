@@ -264,8 +264,8 @@ Text.create!([
   
 ])
 
-User.create!([
-  {
-    email: "srgious@repentance.com", 
-    password_digest: "$2a$12$TJr4F0vXSWiL7YzRPxIbjusDwMsHzI5POLufUKWZF.4sV3D1LNbGu"}
-])
+# User.create!([
+#   {
+#     email: "srgious@repentance.com", 
+#     password_digest: "$2a$12$TJr4F0vXSWiL7YzRPxIbjusDwMsHzI5POLufUKWZF.4sV3D1LNbGu"}
+# ])
