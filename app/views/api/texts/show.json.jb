@@ -1,0 +1,5 @@
+{
+  id: @text.id,
+  input: @text.input,
+  area: @text.area
+}

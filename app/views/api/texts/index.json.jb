@@ -1,0 +1,8 @@
+@texts.map do |text|
+  {
+    id: text.id,
+    input: text.input,
+    area: text.area
+  }
+  
+end
