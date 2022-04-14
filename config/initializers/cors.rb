@@ -7,7 +7,7 @@
 
 Rails.application.config.middleware.insert_before 0, Rack::Cors do
   allow do
-    origins 'localhost:8080', 'https://repentance.netlify.app/'
+    origins 'localhost:8080', 'https://repentance.netlify.app/', 'https://repentance-editor.netlify.app/'
 
     resource '*',
       headers: :any,
