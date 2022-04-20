@@ -7,7 +7,7 @@
 
 Rails.application.config.middleware.insert_before 0, Rack::Cors do
   allow do
-    origins '*'
+    origins 'https://repentance.netlify.app/', 'https://repentance-editor.netlify.app/'
 
     resource '*',
       headers: :any,
